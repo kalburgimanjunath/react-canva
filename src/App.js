@@ -15,6 +15,15 @@ export default function App() {
               <Route path="/alldesigns">
                 <AllDesigns />
               </Route>
+              <Route path="/alldesigns">
+                <AllDesigns />
+              </Route>
+              <Route path="/alldesigns">
+                <AllDesigns />
+              </Route>
+              <Route path="/alldesigns">
+                <AllDesigns />
+              </Route>
 
               <Route path="/*" exact>
                 <Home />
