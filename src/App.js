@@ -11,8 +11,7 @@ import {
   Trash,
 } from './Pages/index';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { configureFakeBackend } from './_helpers';
-configureFakeBackend();
+
 export default function App() {
   return (
     <Router>
