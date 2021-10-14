@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import { Header, Sidebar } from './components/index';
 import {
@@ -9,10 +9,15 @@ import {
   ContentPlanner,
   Shared,
   Trash,
+  Login,
 } from './Pages/index';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
+  const [token, setToken] = useState();
+  if (!token) {
+    return <Login setToken={setToken} />;
+  }
   return (
     <Router>
       <div>
@@ -38,6 +43,9 @@ export default function App() {
               </Route>
               <Route path="/trash">
                 <Trash />
+              </Route>
+              <Route path="/login">
+                <Login />
               </Route>
               <Route path="/*" exact>
                 <Home />

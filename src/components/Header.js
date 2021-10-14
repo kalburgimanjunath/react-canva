@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <div>
@@ -32,9 +33,9 @@ export default function Header() {
         />
         <div className="navbar-nav">
           <div className="nav-item text-nowrap">
-            <a className="nav-link px-3" href="#">
-              <button>Create Design</button>
-            </a>
+            <Link className="nav-link px-3" to="./login">
+              Login
+            </Link>
           </div>
         </div>
       </header>

@@ -5,6 +5,7 @@ import ContentPlanner from './ContentPlanner';
 import AllFolders from './AllFolders';
 import Brandkit from './Brandkit';
 import Trash from './Trash';
+import Login from './Login';
 export {
   Home,
   AllDesigns,
@@ -13,4 +14,5 @@ export {
   Shared,
   Trash,
   AllFolders,
+  Login,
 };
