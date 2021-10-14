@@ -9,10 +9,10 @@ export default function Sidebar() {
       <div className="position-sticky pt-3">
         <ul className="nav flex-column">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">
+            <Link className="nav-link active" aria-current="page" to="./">
               <span data-feather="home"></span>
               Recommended for you
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/alldesigns">
@@ -21,34 +21,34 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="./shared">
               <span data-feather="shopping-cart"></span>
               Shared with you
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="./brandkit">
               <span data-feather="users"></span>
               Brand Kit
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="./contentplanner">
               <span data-feather="bar-chart-2"></span>
               Content Planner
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="./allfolders">
               <span data-feather="layers"></span>
               All your folders
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="./trash">
               <span data-feather="layers"></span>
               Trash
-            </a>
+            </Link>
           </li>
         </ul>
 

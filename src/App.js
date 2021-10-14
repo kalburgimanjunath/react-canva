@@ -1,7 +1,15 @@
 import React from 'react';
 import './style.css';
 import { Header, Sidebar } from './components/index';
-import { Home, AllDesigns } from './Pages/index';
+import {
+  Home,
+  AllDesigns,
+  AllFolders,
+  Brandkit,
+  ContentPlanner,
+  Shared,
+  Trash,
+} from './Pages/index';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 export default function App() {
   return (
@@ -15,14 +23,20 @@ export default function App() {
               <Route path="/alldesigns">
                 <AllDesigns />
               </Route>
-              <Route path="/alldesigns">
-                <AllDesigns />
+              <Route path="/brandkit">
+                <Brandkit />
               </Route>
-              <Route path="/alldesigns">
-                <AllDesigns />
+              <Route path="/contentplanner">
+                <ContentPlanner />
               </Route>
-              <Route path="/alldesigns">
-                <AllDesigns />
+              <Route path="/shared">
+                <Shared />
+              </Route>
+              <Route path="/allfolders">
+                <AllFolders />
+              </Route>
+              <Route path="/trash">
+                <Trash />
               </Route>
 
               <Route path="/*" exact>
