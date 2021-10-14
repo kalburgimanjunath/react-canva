@@ -15,9 +15,9 @@ export default function CardCarousal() {
               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
                 <img src="http://placehold.it/150x150" alt="slider 02" />
                 <div class="team_columns_item_caption">
-                  <h4>Lahore</h4>
+                  <h4>Bangalore</h4>
                   <hr />
-                  <h5>PAKISTAN</h5>
+                  <h5>India</h5>
                 </div>
               </div>
             </div>
@@ -25,33 +25,33 @@ export default function CardCarousal() {
               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
                 <img src="http://placehold.it/150x150" alt="slider 02" />
                 <div class="team_columns_item_caption">
-                  <h4>Lahore</h4>
+                  <h4>Bangalore</h4>
                   <hr />
-                  <h5>PAKISTAN</h5>
+                  <h5>India</h5>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
                 <img src="http://placehold.it/150x150" alt="slider 02" />
                 <div class="team_columns_item_caption">
-                  <h4>Karachi</h4>
+                  <h4>Bangalore</h4>
                   <hr />
-                  <h5>PAKISTAN</h5>
+                  <h5>India</h5>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
                 <img src="http://placehold.it/150x150" alt="slider 02" />
                 <div class="team_columns_item_caption">
-                  <h4>Lahore</h4>
+                  <h4>Bangalore</h4>
                   <hr />
-                  <h5>PAKISTAN</h5>
+                  <h5>India</h5>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
                 <img src="http://placehold.it/150x150" alt="slider 02" />
                 <div class="team_columns_item_caption">
-                  <h4>Karachi</h4>
+                  <h4>Bangalore</h4>
                   <hr />
-                  <h5>PAKISTAN</h5>
+                  <h5>India</h5>
                 </div>
               </div>
             </div>
