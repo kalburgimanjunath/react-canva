@@ -38,7 +38,6 @@ export default function App() {
               <Route path="/trash">
                 <Trash />
               </Route>
-
               <Route path="/*" exact>
                 <Home />
               </Route>

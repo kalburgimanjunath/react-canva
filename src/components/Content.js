@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from '../pages/index';
+import Card from '../components/index';
 export default function Content({ type, title }) {
   return (
     <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
@@ -23,6 +24,7 @@ export default function Content({ type, title }) {
           </button>
         </div>
       </div>
+      <Card />
     </main>
   );
 }
